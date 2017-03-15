@@ -1,0 +1,2 @@
+#! /bin/bash
+ssh -f jivey@pc5.instageni.rnoc.gatech.edu -p31034 "sudo mv /local/geni-install-files/floodlight/src/main/resources/$1 /local/geni-install-files/floodlight/src/main/resources/temp ; sudo mv /local/geni-install-files/floodlight/src/main/resources/$2 /local/geni-install-files/floodlight/src/main/resources/$1 ; sudo mv /local/geni-install-files/floodlight/src/main/resources/temp /local/geni-install-files/floodlight/src/main/resources/$2"
